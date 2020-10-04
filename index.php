@@ -36,7 +36,7 @@
 									3 - JavaScript <br>
 									4 - PHP <br>
 									5 - PL/SQL <br>
-									6 - Python() <br>
+									6 - Python <br>
 								</div>
 							</div>
 							<div class="body" id="chatbody">
