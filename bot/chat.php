@@ -38,7 +38,7 @@ if (isset($_GET['msg'])) {
         if (in_array($msg, $generics)) {
             $botty->reply('Olá! ');
             $botty->reply('Escolha uma linguagem para começar: <br>
-                            1 - C++ <br>
+                            1 - C <br>
                             2 - Java <br>
                             3 - JavaScript <br>
                             4 - PHP <br>
