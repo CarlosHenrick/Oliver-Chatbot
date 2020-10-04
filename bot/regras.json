@@ -1,0 +1,14 @@
+[
+	{"opC":"A linguagem C é uma das linguagens mais conhecidas, e é extremamente difundida atualmente!<br> Embora tenha evoluções, sua sintaxe permanece praticamente a mesma!<br> Abaixo está um exemplo de Hello World:<br><br>"},
+	{"opJ":"A linguagem Java é extremamente difundida em aparelhos móveis e na internet! Abaixo está um exemplo de Hello World:<br><br>"},
+	{"opJS":"A linguagem JavaScript é extremamente usada para desenvolvimento de sites! Abaixo está um exemplo de Hello World:<br><br>"},
+	{"opP":"A linguagem PHP é extremamente utilizada no desenvolvimento web! Abaixo está um exemplo de Hello World:<br><br>"},
+	{"opS":"A linguagem PL/SQL é amplamente usada na estrutura de controle de bancos de dados! Abaixo está um exemplo de Hello World:<br><br>"},
+	{"opPY":"A linguagem Python é uma linguagem moderna com sintaxe simples, utilizada em várias áreas da informática e ciência de dados! Abaixo está um exemplo de Hello World:<br><br>"},
+	{"helloC":"#include &ltstdio.h&gt <br> &ensp;int main(){ <br> &ensp;printf(\"Hello World\"); <br> &ensp;return 0; <br> &ensp;}"},
+	{"helloJ":"class Main{ <br> &ensp;public static void main(String[] args){ <br> &ensp;System.out.println(\"Hello World\"); <br> &ensp;} <br> }"},
+	{"helloJS":"&ltDOCTYPE html&gt <br> &lthtml lang='pt-br'&gt <br> &ensp;&lthead&gt <br> &emsp;&lttitle&gtTítulo&lt/title&gt <br> &emsp;&ltmeta charset='utf-8'&gt <br> &ensp;&lthead&gt <br> &ensp;&ltbody&gt <br><br> &ensp;&ltscript type='text/javascript'&gt <br> &emsp;alert('Hello World!'); <br> &ensp;&lt/script&gt <br> &ensp;&lt/body&gt <br> &lt/html&gt <br>"},
+	{"helloP":"&lt?php <br> &ensp;echo \"Hello World!\"; <br> ?&gt"},
+	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
+	{"helloPY":"print('Hello World!')"}
+]
