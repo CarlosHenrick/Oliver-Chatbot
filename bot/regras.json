@@ -12,8 +12,8 @@
 	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
 	{"helloPY":"print('Hello World!')"},
 
-	{"tipos":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
-	{"tiposJ":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposC":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tipos":"int variavel_int = 1; &ensp;// Tipo inteiro <br> long variavel_long = 1; &ensp;// Tipo inteiro <br> floatvariavel_float = 1.0; &ensp;// Tipo ponto flutuante <br> double variavel_double = 1.0; &ensp;// Tipo ponto flutuante <br> char variavel_char = 'v'; &ensp;// Tipo caractere <br> boolean variavel_boolean = true; &ensp;// Tipo booleano"},
 	{"tiposJS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
 	{"tiposP":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
 	{"tiposS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
