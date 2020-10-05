@@ -10,5 +10,6 @@
 	{"helloJS":"&ltDOCTYPE html&gt <br> &lthtml lang='pt-br'&gt <br> &ensp;&lthead&gt <br> &emsp;&lttitle&gtTítulo&lt/title&gt <br> &emsp;&ltmeta charset='utf-8'&gt <br> &ensp;&lthead&gt <br> &ensp;&ltbody&gt <br><br> &ensp;&ltscript type='text/javascript'&gt <br> &emsp;alert('Hello World!'); <br> &ensp;&lt/script&gt <br> &ensp;&lt/body&gt <br> &lt/html&gt <br>"},
 	{"helloP":"&lt?php <br> &ensp;echo \"Hello World!\"; <br> ?&gt"},
 	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
-	{"helloPY":"print('Hello World!')"}
+	{"helloPY":"print('Hello World!')"},
+	{"tiposC":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
 ]
