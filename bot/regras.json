@@ -12,10 +12,10 @@
 	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
 	{"helloPY":"print('Hello World!')"},
 
-	{"tiposC":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
-	{"tipos":"int variavel_int = 1; &ensp;// Tipo inteiro <br> long variavel_long = 1; &ensp;// Tipo inteiro <br> floatvariavel_float = 1.0; &ensp;// Tipo ponto flutuante <br> double variavel_double = 1.0; &ensp;// Tipo ponto flutuante <br> char variavel_char = 'v'; &ensp;// Tipo caractere <br> boolean variavel_boolean = true; &ensp;// Tipo booleano"},
-	{"tiposJS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
-	{"tiposP":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
-	{"tiposS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
-	{"tiposPY":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
+	{"tipoC":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tipo":"int variavel_int = 1; //Tipo inteiro <br> long variavel_long = 1; //Tipo inteiro <br> float variavel_float = 1.0; //Tipo ponto flutuante <br> double variavel_double = 1.0; //Tipo ponto flutuante <br> char variavel_char = 'v'; //Tipo caractere <br> boolean variavel_boolean = true; //Tipo booleano"},
+	{"tipoJS":"var foo = 15 //Number <br> foo = 'gool' //String <br> foo = true //Boolean"},
+	{"tipoP":"$nome = 'Gabriel'; //string <br> $idade = 20; //int <br> $altura = 1.78; //float <br> $maior= true; $menor=false; //boolean"},
+	{"tipoS":"lv_var VARCHAR2(15); <br> NUMBER; <br> LONG; <br> DATE <br> CHAR; <br> BOOLEAN;"},
+	{"tipoPY":"variavel_int = 1 #Tipo inteiro <br> variavel_float = 1.0 #Tipo ponto flutuante <br> variavel_str = 'variavel' #Tipo caractere <br> variavel_bool = True #Tipo booleano"}
 ]
