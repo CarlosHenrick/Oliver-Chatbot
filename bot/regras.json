@@ -11,5 +11,6 @@
 	{"helloP":"&lt?php <br> &ensp;echo \"Hello World!\"; <br> ?&gt"},
 	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
 	{"helloPY":"print('Hello World!')"},
-	{"tiposC":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
+
+	{"tipos":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
 ]
