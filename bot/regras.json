@@ -12,5 +12,10 @@
 	{"helloS":"BEGIN <br> &ensp;dbms_output.put_line('Hello World!'); <br> END;"},
 	{"helloPY":"print('Hello World!')"},
 
-	{"tipos":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
+	{"tipos":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposJ":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposJS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposP":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposS":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"},
+	{"tiposPY":"int = 1 <br> float = 1.10 <br> char = nome[15] <br> enum boolean { <br> true = 1, false = 0 <br> }"}
 ]
