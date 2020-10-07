@@ -65,7 +65,7 @@
 	{"matrizJ":""},
 	{"matrizJS":"var matriz = Create2DArray(2,2);"},
 	{"matrizP":"$status = array( <br> &ensp;'1'=>array('Primeiro', 'Segundo'), <br> &ensp;'2'=>array('Terceiro', 'Quarto') <br> );"},
-	{"matrizS":"type namesarray IS VARRAY(5) OF VARCHAR2(10); <br> type grades IS VARRAY(5) OF INTEGER; <br> names valores; <br> marks grades; <br>"},
+	{"matrizS":"type namesarray IS VARRAY(2) OF VARCHAR2(10); <br> type grades IS VARRAY(2) OF INTEGER; <br> names valores; <br> marks grades; <br>"},
 	{"matrizPY":"matriz = [[1, 2], [3, 4]]"},
 
 	{"comentaC":"// (Comentário simples) <br> <br>/* (Comentário em <br> &emsp;varias linhas) <br> */"},
