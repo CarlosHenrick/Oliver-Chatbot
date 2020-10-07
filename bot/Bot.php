@@ -1,7 +1,7 @@
 <?php
 class Bot
 {
-    private $name = "Chatbot";
+    private $name = "Oliver";
 
     public function getName()
     {
