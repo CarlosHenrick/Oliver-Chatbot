@@ -1,16 +1,6 @@
 <?php
 include "Bot.php";
 $bot = new Bot;
-/*
-$questions = [
-    "php" => "É uma linguagem de programação Server Side",
-    "linux" => "É um sistema operacional desenvolvido por Linus Torvald",
-    "dns" => "O DNS (Domain Name System) é um sistema de gestão de nomes para computadores",
-    "chatbot" => "É um programa de computador que tenta simular um ser humano na conversação com as pessoas",
-    "qual seu nome" => "Meu nome é " . $bot->getName(),
-];
-*/
-# Carregando de um arquivo JSON
 
 $obj = json_decode(file_get_contents('regras.json'), True);
 $questions = array();
@@ -21,7 +11,6 @@ foreach ($obj as $values) {
     }
 }
 
-
 if (isset($_GET['msg'])) {
     $msg = strtolower($_GET['msg']);
     $bot->hears($msg, function (Bot $botty) {
@@ -30,38 +19,47 @@ if (isset($_GET['msg'])) {
 
         $generics = ['oi', 'oie', 'ola', 'olá', 'bom dia', 'boa tarde', 'boa noite', 'oii'];
         $optionsc = ['1', 'c'];
-        $optionsj = ['2', 'java'];
+        $optionsjava = ['2', 'java'];
         $optionsjs = ['3', 'javascript', 'js'];
-        $optionsp = ['4', 'php'];
-        $optionss = ['5', 'pl/sql', 'pl-sql', 'plsql', 'pl', 'sql'];
+        $optionsphp = ['4', 'php'];
+        $optionspl = ['5', 'pl/sql', 'pl-sql', 'plsql', 'pl', 'sql'];
         $optionspy = ['6', 'python', 'py', 'pyton'];
+        $outros = ['outras', 'outros', 'outro', 'outra'];
         if (in_array($msg, $generics)) {
-            $botty->reply('Olá! ');
-            $botty->reply('Escolha uma linguagem para começar: <br>
-                            1 - C <br>
+            $botty->reply('Olá! <br>');
+            $botty->reply('Escolha uma linguagem para começar! <br><br>
+                        <b>1 - C <br>
                             2 - Java <br>
                             3 - JavaScript <br>
                             4 - PHP <br>
                             5 - PL/SQL <br>
-                            6 - Python <br>');
+                            6 - Python <br></b>');
         }   elseif (in_array($msg, $optionsc)) {
-            $botty->reply($questions['opC']);
-            $botty->reply($questions['helloC']);
-        }   elseif (in_array($msg, $optionsj)) {
-            $botty->reply($questions['opJ']);
-            $botty->reply($questions['helloJ']);
+            $botty->reply($questions['opc']);
+            $botty->reply($questions['helloc']);
+            $botty->reply($questions['outrosc']);
+        }   elseif (in_array($msg, $optionsjava)) {
+            $botty->reply($questions['opjava']);
+            $botty->reply($questions['hellojava']);
+            $botty->reply($questions['outrosjava']);
         }   elseif (in_array($msg, $optionsjs)) {
-            $botty->reply($questions['opJS']);
-            $botty->reply($questions['helloJS']);
-        }   elseif (in_array($msg, $optionsp)) {
-            $botty->reply($questions['opP']);
-            $botty->reply($questions['helloP']);
-        }   elseif (in_array($msg, $optionss)) {
-            $botty->reply($questions['opS']);
-            $botty->reply($questions['helloS']);
+            $botty->reply($questions['opjs']);
+            $botty->reply($questions['hellojs']);
+            $botty->reply($questions['outrosjs']);
+        }   elseif (in_array($msg, $optionsphp)) {
+            $botty->reply($questions['opphp']);
+            $botty->reply($questions['hellophp']);
+            $botty->reply($questions['outrosphp']);
+        }   elseif (in_array($msg, $optionspl)) {
+            $botty->reply($questions['oppl']);
+            $botty->reply($questions['hellopl']);
+            $botty->reply($questions['outrospl']);
         }   elseif (in_array($msg, $optionspy)) {
-            $botty->reply($questions['opPY']);
-            $botty->reply($questions['helloPY']);
+            $botty->reply($questions['oppy']);
+            $botty->reply($questions['hellopy']);
+            $botty->reply($questions['outrospy']);
+        }   elseif (in_array($msg, $outros)) {
+            $botty->reply($questions['outros']);
         }   elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("Desculpe, poderia digitar novamente? Não entendi...");
         }   else {

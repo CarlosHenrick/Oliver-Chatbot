@@ -29,14 +29,15 @@
 						<div class="card-body msg_card_body">
 							<div class="d-flex justify-content-start mb-4">
 								<div class="msg_cotainer">
-									Olá! <br>
-									Qual linguagem deseja conhecer hoje? <br>
-									1 - C <br>
+									Olá! Eu sou o Oliver! <br>
+									Seu chatbot para aprender programação! <br>
+									Qual linguagem deseja conhecer hoje? <br><br>
+									<b>1 - C <br>
 									2 - Java <br>
 									3 - JavaScript <br>
 									4 - PHP <br>
 									5 - PL/SQL <br>
-									6 - Python <br>
+									6 - Python <br></b>
 								</div>
 							</div>
 							<div class="body" id="chatbody">
