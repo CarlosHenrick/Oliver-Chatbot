@@ -17,15 +17,15 @@ if (isset($_GET['msg'])) {
         global $msg;
         global $questions;
 
-        $generics = ['oi', 'oie', 'ola', 'olá', 'bom dia', 'boa tarde', 'boa noite', 'oii'];
+        $random = ['oi', 'oie', 'ola', 'olá', 'bom dia', 'boa tarde', 'boa noite', 'oii'];
         $optionsc = ['1', 'c'];
         $optionsjava = ['2', 'java'];
         $optionsjs = ['3', 'javascript', 'js'];
         $optionsphp = ['4', 'php'];
         $optionspl = ['5', 'pl/sql', 'pl-sql', 'plsql', 'pl', 'sql'];
         $optionspy = ['6', 'python', 'py', 'pyton'];
-        $outros = ['outras', 'outros', 'outro', 'outra'];
-        if (in_array($msg, $generics)) {
+        $other = ['outras', 'outros', 'outro', 'outra'];
+        if (in_array($msg, $random)) {
             $botty->reply('Olá! <br>');
             $botty->reply('Escolha uma linguagem para começar! <br><br>
                         <b>1 - C <br>
@@ -52,7 +52,7 @@ if (isset($_GET['msg'])) {
         }   elseif (in_array($msg, $optionspy)) {
             $botty->reply($questions['oppy']);
             $botty->reply($questions['outrospy']);
-        }   elseif (in_array($msg, $outros)) {
+        }   elseif (in_array($msg, $other)) {
             $botty->reply($questions['outros']);
         }   elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("Desculpe, poderia digitar novamente? Não entendi...");
