@@ -36,27 +36,21 @@ if (isset($_GET['msg'])) {
                             6 - Python <br></b>');
         }   elseif (in_array($msg, $optionsc)) {
             $botty->reply($questions['opc']);
-            $botty->reply($questions['helloc']);
             $botty->reply($questions['outrosc']);
         }   elseif (in_array($msg, $optionsjava)) {
             $botty->reply($questions['opjava']);
-            $botty->reply($questions['hellojava']);
             $botty->reply($questions['outrosjava']);
         }   elseif (in_array($msg, $optionsjs)) {
             $botty->reply($questions['opjs']);
-            $botty->reply($questions['hellojs']);
             $botty->reply($questions['outrosjs']);
         }   elseif (in_array($msg, $optionsphp)) {
             $botty->reply($questions['opphp']);
-            $botty->reply($questions['hellophp']);
             $botty->reply($questions['outrosphp']);
         }   elseif (in_array($msg, $optionspl)) {
             $botty->reply($questions['oppl']);
-            $botty->reply($questions['hellopl']);
             $botty->reply($questions['outrospl']);
         }   elseif (in_array($msg, $optionspy)) {
             $botty->reply($questions['oppy']);
-            $botty->reply($questions['hellopy']);
             $botty->reply($questions['outrospy']);
         }   elseif (in_array($msg, $outros)) {
             $botty->reply($questions['outros']);
