@@ -29,9 +29,10 @@
 						<div class="card-body msg_card_body">
 							<div class="d-flex justify-content-start mb-4">
 								<div class="msg_cotainer">
-									Olá! Eu sou o Oliver! <br>
-									Seu chatbot para aprender programação! <br>
-									Qual linguagem deseja conhecer hoje? <br><br>
+									Olá, eu sou o Oliver! <br>
+									Seu chatbot de programação! <br>
+									Atualmente, eu posso conversar com você <br>
+									sobre as seguintes linguagens: <br><br>
 									<b>1 - C <br>
 									2 - Java <br>
 									3 - JavaScript <br>
