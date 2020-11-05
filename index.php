@@ -22,7 +22,7 @@
 								</div>
 								<div class="user_info">
 									<span>Oliver Chatbot</span>
-									<p>Seu bot para linguagens de programação!</p>
+									<p>Seu bot para programação!</p>
 								</div>
 							</div>
 						</div>
